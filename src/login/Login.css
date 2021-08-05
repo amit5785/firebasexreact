@@ -1,0 +1,192 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+.login-container{
+  background-color: aqua;
+  height: 450px;
+  width: 380px;
+  background:none;
+  margin-left: 800px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.login-container h1{
+  /* font-family: 'Permanent Marker', cursive; */
+  font-size: 60px;
+  font-family: Parisienne;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.login-container hr{
+  opacity: 1;
+  width: 90%;
+  align-items: center;
+  margin: 8px;
+  color: black;
+}
+
+.login-container p{
+  opacity: .9;
+  margin: 5px;
+}
+
+.login-email{
+  height: 45px;
+  width: 80%;
+  text-align: center;
+  background: #F8F2E7;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.login-password{
+  height: 45px;
+  width: 80%;
+  text-align: center;
+  background: #F8F2E7;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.login-btn{
+  height: 40px;
+  width:25%;
+  border: 2px solid white;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 20px;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-last{
+  font-weight: bold;
+}
+
+.login-signup{
+  cursor: pointer;
+  height: 30px;
+  width:80px;
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 3px;
+  background-color: rgb(80, 78, 78);
+  color: white;
+  font-weight: bold;
+}
+
+
+.signup-container{
+  background-color: aqua;
+  height: 470px;
+  width: 380px;
+  background:none;
+  margin-left: 750px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.signup-container h1{
+  /* font-family: 'Permanent Marker', cursive; */
+  font-size: 60px;
+  font-family: Parisienne;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.signup-container hr{
+  opacity: 1;
+  width: 90%;
+  align-items: center;
+  margin: 8px;
+  color: black;
+}
+
+.signup-container p{
+  opacity: .9;
+  margin: 5px;
+}
+
+.user-name{
+  height: 45px;
+  width: 80%;
+  text-align: center;
+  background: #F8F2E7;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.signup-email{
+  height: 45px;
+  width: 80%;
+  text-align: center;
+  background: #F8F2E7;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.signup-password{
+  height: 45px;
+  width: 80%;
+  text-align: center;
+  background: #F8F2E7;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.signup-confirm-password{
+  height: 45px;
+  width: 80%;
+  text-align: center;
+  background: #F8F2E7;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.signup-btn{
+  height: 40px;
+  width:25%;
+  border: 2px solid white;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-last{
+  font-weight: bold;
+  margin: 10px;
+}
+
+.signup-login{
+  cursor: pointer;
+  height: 30px;
+  width:80px;
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 3px;
+  background-color: rgb(80, 78, 78);
+  color: white;
+  font-weight: bold;
+}
+
+.signup-container span{
+  font-family: Parisienne;
+  color: black;
+  font-size: 1.5em;
+}

@@ -1,0 +1,31 @@
+*{padding: 0; margin: 0;box-sizing:border-box;}
+
+.landing-navbar{
+font-family:apple-system;
+font-size: 20px;
+display: flex;
+padding-left: 1000px;
+}
+
+.landing-navbar ul li{
+  list-style: none;
+}
+
+.landing-navbar ul{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
+
+
+.landing-navbar ul li{
+  cursor: pointer;
+  padding: 7px;
+}
+
+.landing-navbar ul li:hover{
+font-size: 22px;
+text-decoration: underline;
+color: black;
+}

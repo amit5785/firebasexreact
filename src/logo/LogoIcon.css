@@ -1,0 +1,45 @@
+*{margin: 0%; padding: 0%; box-sizing: border-box;}
+
+
+#logoicon{ 
+position: absolute;
+width: 180px;
+height: 180px;
+border-radius:50%;
+}
+
+
+#logocontainer{
+position: absolute;
+width: 180px;
+height: 180px;
+left: 187px;
+top: 200px;
+border-radius: 50%; 
+background-color:white;
+display: flex;
+text-align: center;
+align-items: center;
+}
+
+#logotext{
+position: absolute;
+width: 570px;
+height: 89px;
+left: 140px;
+top: 370px;
+
+font-family: Parisienne;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 110.19%;
+/* or 110px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #000000;
+}
