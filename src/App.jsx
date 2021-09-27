@@ -1,9 +1,14 @@
 import React from 'react'
+import { Route,Switch } from 'react-router-dom';
 import Landing from './landing/Langing'
+import Home from './home/Home';
 const App=() =>{
   return (
     <>
-      <Landing />
+      <Switch>
+        <Route exact path="/" component={Landing} />
+        <Route  path="/home" component={Home} />
+      </Switch>
     </>
   );
 }
